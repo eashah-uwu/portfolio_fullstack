@@ -467,7 +467,7 @@ export default function Home() {
           </div>
 
           <div className="relative z-10 mx-auto max-w-6xl text-center">
-            <div className="reveal mb-6 inline-flex max-w-full items-center gap-3 rounded-full border border-[#3a4a16]/20 bg-white/55 px-5 py-3 shadow-sm backdrop-blur-md sm:px-6">
+            <div className="reveal mb-6 mt-10 inline-flex max-w-full items-center gap-3 rounded-full border border-[#3a4a16]/20 bg-white/55 px-5 py-3 shadow-sm backdrop-blur-md sm:mt-12 sm:px-6">
               <span className="relative flex size-2">
                 <span className="absolute inline-flex size-full animate-ping rounded-full bg-[#3a4a16] opacity-75" />
                 <span className="relative inline-flex size-2 rounded-full bg-[#3a4a16]" />
@@ -572,15 +572,6 @@ export default function Home() {
                           <span className="h-16 rounded-2xl bg-white/25" />
                           <span className="h-16 rounded-2xl bg-white/35" />
                           <span className="h-16 rounded-2xl bg-white/25" />
-                        </div>
-                        <div className="absolute inset-x-10 top-12 z-10 rounded-2xl border border-white/50 bg-white/70 p-4 shadow-sm backdrop-blur-md">
-                          <span className="text-[10px] font-bold uppercase tracking-[0.16em] text-[#3a4a16]">
-                            {project.category}
-                          </span>
-                          <p className="mt-2 text-sm font-medium leading-snug text-black/70">
-                            Private system work. Visual summary shown in place
-                            of protected product screens.
-                          </p>
                         </div>
                         <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_76%_20%,rgb(255_255_255_/_0.58),transparent_28%),radial-gradient(circle_at_18%_76%,rgb(58_74_22_/_0.12),transparent_30%)]" />
                       </div>
@@ -700,7 +691,7 @@ export default function Home() {
                 return (
                   <article
                     key={`more-${project.title}`}
-                    className="min-w-[280px] snap-start rounded-[1.25rem] border border-black/5 bg-white/65 p-3 shadow-sm sm:min-w-[340px]"
+                    className="flex min-w-[280px] snap-start flex-col rounded-[1.25rem] border border-black/5 bg-white/65 p-3 shadow-sm sm:min-w-[340px]"
                   >
                     <div className={`relative aspect-[16/10] overflow-hidden rounded-[1rem] bg-gradient-to-br ${project.visualClass}`}>
                       {project.image ? (
@@ -767,7 +758,7 @@ export default function Home() {
                             ? "noopener noreferrer"
                             : undefined
                         }
-                        className="mt-auto inline-flex items-center gap-2 pt-5 text-xs font-bold uppercase tracking-[0.14em] text-[#3a4a16] transition-colors duration-200 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#3a4a16]"
+                        className="mt-auto inline-flex self-end items-center justify-end gap-2 pt-5 text-xs font-bold uppercase tracking-[0.14em] text-[#3a4a16] transition-colors duration-200 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#3a4a16]"
                       >
                         {project.ctaLabel}
                         <ArrowRight className="size-3.5" />
