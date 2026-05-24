@@ -287,26 +287,36 @@ const resumeSlides = [
     content: (
       <div className="flex flex-wrap gap-3">
         {[
-          "HTML5",
-          "CSS3",
-          "JavaScript ES6+",
           "TypeScript",
-          "React & Next.js",
-          "Go",
-          "Node.js",
-          "REST APIs",
-          "PostgreSQL",
-          "Docker",
+          "React",
+          "Next.js",
           "Tailwind CSS",
-          "MUI",
-          "Shadcn/ui",
-          "Redux",
+          "Angular",
           "Zustand",
-          "Context API",
-          "React Query",
-          "TanStack Query",
-          "Responsive Design",
-          "SEO Principles",
+          "shadcn/ui",
+          "MUI",
+          "HTML",
+          "CSS",
+          "Node.js",
+          "Go",
+          "Hono",
+          "FastAPI",
+          "REST API Design",
+          "BullMQ",
+          "Celery",
+          "Git",
+          "Docker",
+          "Google Cloud Platform",
+          "VS Code",
+          "AWS S3",
+          "Coolify",
+          "CI/CD",
+          "PostgreSQL",
+          "MongoDB",
+          "Supabase",
+          "Prisma",
+          "Drizzle ORM",
+          "Knex",
         ].map((skill) => (
           <span
             key={skill}
@@ -969,12 +979,12 @@ export default function Home() {
 
                   <div className="mt-6 flex flex-col gap-6 border-t border-black/5 pt-6 sm:flex-row sm:items-center sm:justify-between">
                     <a
-                      href="/resume/eashah-emaan-bajwa-resume.pdf"
+                      href="/resume/Eashahs_Resume.pdf"
                       download
                       className="group inline-flex items-center gap-2 text-sm font-bold uppercase tracking-[0.16em] text-[#3a4a16] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#3a4a16]"
                     >
                       <Download className="size-4" />
-                      <span>Download PDF Resume</span>
+                      <span>Download Eashah&apos;s Resume</span>
                     </a>
                     <div className="flex gap-2">
                       <button
